@@ -5,6 +5,10 @@ body {
     font-size: 14px;
 }
 
+a:hover {
+    font-weight:700;
+}
+
 .ex1 {
     width: 100%;
     max-width: 1000px;
