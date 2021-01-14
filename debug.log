@@ -1,3 +1,4 @@
 [0112/115043.356:ERROR:settings.cc(325)] Settings version is not 1
 [0114/104947.878:ERROR:directory_reader_win.cc(43)] FindFirstFile: Määritettyä polkua ei löydy. (0x3)
 [0114/111714.302:ERROR:directory_reader_win.cc(43)] FindFirstFile: Määritettyä polkua ei löydy. (0x3)
+[0114/121820.304:ERROR:directory_reader_win.cc(43)] FindFirstFile: Määritettyä polkua ei löydy. (0x3)
