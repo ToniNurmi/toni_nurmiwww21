@@ -2,19 +2,18 @@ body {
     background-color: #e6dada;
     color: #382a27;
     font-family: 'Comic sans', Arial, Impact;
-    font-size:14px;
-    
+    font-size: 14px;
 }
 
-h1 {
-    font-size:16px;
-    border-bottom: 30px;
-    color:#ff0000;
+.ex1 {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #ceb4b4;
+    position: relative;
 }
-.ex2 a {
-    color:#00791e;
-    border: #ff0000 solid 1px;
-    background:#83ffa2;
+
+.text {
+    margin: 25px;
 }
 
 .row {
@@ -22,6 +21,17 @@ h1 {
     flex-wrap: wrap;
     margin-right: 15px;
     margin-left: 15px
+}
+
+.ex2 h1 {
+    font-size:16px;
+    border-bottom: 30px;
+    color:#ff0000;
+}
+.head a {
+    color:#00791e;
+    border: #ff0000 solid 1px;
+    background:#83ffa2;
 }
 
 .caption {
