@@ -1,11 +1,17 @@
 body {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
     background-color: #2e2e2e;
     color: #ffffff;
+}
+
+.head {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
 }
 
 .wrapper {
@@ -26,10 +32,9 @@ leftbar {
     float: left;
     margin-right: 25px;
     width: 170px;
-    /*min-height: 300px;*/
+    min-height: 200px;
     background-color: #41457c;
     padding: 5px;
-    
 }
 
 footer {
