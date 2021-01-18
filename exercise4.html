@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,63 @@
                 <a href="projects.html" target="_blank">Projects</a>
                 <a href="aboutus.html" target="_blank">About us</a>
                 <a href="https://www.youtube.com/watch?v=OF8TSHN-JDA&ab_channel=QuoteTheGuy" target="_blank">Tässä ei ole linkkiä.</a>
+                <form action="/my-handling-form-page" method="POST">
+                    <p>Anna palautetta hyvästä sivusta:</p>
+                    <label for="name">Nimi:</label>
+                    <input type="text" name="un" required>
+                    <label for="mail">Sposti:</label>
+                    <input tpye="email" id="mail" name="ue" required>
+                    <label for="msg">Viesti:</label>
+                    <textarea id="msg" name="um"></textarea>
+                    <button type="submit">En anna</button>
+                </form>
             </ul>
             </leftbar>
         </div>
         <div class="content">
-            <article style="flex-grow: 2;">
-                <h2>Recommended for you:</h2>
-                <img src="">
-                <p>Mene töihin</p>
+            <article style="flex-grow: 6;">
+                <section>
+                    <h2>Recommended for you:</h2>
+                    <p>Mene töihin</p>
+                </section>
+                <section>
+                    <h2>Categories:</h2>
+                    <div class="row">
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn1.jpg" style="width: 220px; height: 140px;">
+                        <p>Helppoo ja kivaa</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn2.jpg" style="width: 220px; height: 140px;">
+                        <p>??????</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/toom.jpg" style="width: 220px; height: 140px;">
+                        <p>The suspense</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn3.jpg" style="width: 220px; height: 140px;">
+                        <p>Ihan kuin isoäidin tekemää</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn4.jpg" style="width: 220px; height: 140px;">
+                        <p>Vintage</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn5.jpg" style="width: 220px; height: 140px;">
+                        <p>Joo</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn6.jpg" style="width: 220px; height: 140px;">
+                        <p>Aku Ankka</p>
+                    </div>
+                    <div class="col col-6 col-lg-3">
+                        <img src="images/corn7.jpg" style="width: 220px; height: 140px;">
+                        <p>.</p>
+                    </div>
+                </div>
+                </section>
+            </div>
         </div>
         <footer>
             <p>G</p>
