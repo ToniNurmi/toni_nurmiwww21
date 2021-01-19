@@ -52,19 +52,25 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">Klikkaa tästä</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
                                 style="background-color: #2e2e2e;">
-                                <li><p class="dropdown-item" style="color: #ffffff">Hahaa sainpas sut kattoo</p></li>
-                                <li><p class="dropdown-item"style="color: #ffffff">Noni voit pistää tän pois</p></li>
+                                <li>
+                                    <p class="dropdown-item" style="color: #ffffff">Hahaa sainpas sut kattoo</p>
+                                </li>
+                                <li>
+                                    <p class="dropdown-item" style="color: #ffffff">Noni voit pistää tän pois</p>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><p class="dropdown-item"style="color: #ffffff">For real, mee pois</p></li>
+                                <li>
+                                    <p class="dropdown-item" style="color: #ffffff">For real, mee pois</p>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <leftbar style="flex-grow: 1;">
+        <aside style="flex-grow: 1;">
             According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too
             small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care
             what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and
@@ -441,7 +447,7 @@
             better! They're doing nothing. It's amazing. Honey really changes people. You don't have any idea what's
             going on, do you? - What did you want to show me? - This. What happened here? That is not the half of it.
             Oh, no. Oh, my. They're all wilting. Doesn't look very good, does it? No. And
-        </leftbar>
+        </aside>
         <div class="content">
             <div style="flex-grow: 6; margin-right: 50px;">
                 <section>
@@ -487,39 +493,41 @@
                 </section>
             </div>
         </div>
+        <footer>
+            <p><i>Have you ever had a dream that you, um, you had, your, you- you could, you’ll do, you- you wants, you,
+                    you
+                    could do so, you- you’ll do,
+                    you could- you, you want, you want them to do you so much you could do anything?</i></p>
+            <h3>Contact us:</h3>
+            <form action="/action.php" method="POST" style="font-size: 12px;">
+                Nimi/Name: <input type="text" name="fname" required><br>
+                Sposti/E-mail: <input type="email" name="email" required><br>
+                Kommentti/Comment: <textarea name="message" required></textarea><br>
+                <button type="submit">Delete</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>HQ</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hämeenlinna</td>
+                        <td>03 12313123</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Kangasala</td>
+                        <td>112</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </footer>
     </div>
-    <footer>
-        <p><i>Have you ever had a dream that you, um, you had, your, you- you could, you’ll do, you- you wants, you,
-                you
-                could do so, you- you’ll do,
-                you could- you, you want, you want them to do you so much you could do anything?</i></p>
-        <h3>Contact us:</h3>
-        <form action="/action.php" method="POST" style="font-size: 12px;">
-            Nimi/Name: <input type="text" name="fname" required><br>
-            Sposti/E-mail: <input type="email" name="email" required><br>
-            Kommentti/Comment: <textarea name="message" required></textarea><br>
-            <button type="submit">Delete</button>
-        </form>
-    <table>
-        <thead>
-            <tr>
-                <th>HQ</th> <th>Phone Number</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hämeenlinna</td> <td>03 12313123</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Kangasala</td> <td>112</td> 
-            </tr>
-        </tfoot>
-    </table>
-    </footer>
-    </div>
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
