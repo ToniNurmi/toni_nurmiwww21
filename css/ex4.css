@@ -1,4 +1,4 @@
-body {
+.container {
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
@@ -8,16 +8,10 @@ body {
     color: #ffffff;
 }
 
-.wrapper {
-    margin: auto;
-    width: 100%;
-}
-
 .top {
     text-align: center;
     flex-flow: row wrap;
     justify-content: flex-end;
-    padding: 1em;
     background-image: linear-gradient(to right,  #19323b, #5c737c,  #19323b);
     margin-bottom: 5px;
 }
@@ -38,13 +32,13 @@ footer {
     overflow: hidden;
 }
 
-a {
+.container a {
     color: #ffffff;
     display: block;
     padding: 5px;
 }
 
-a:hover {
+.container a:hover {
     font-weight:700;
     background-color: #2d315e;
 }
